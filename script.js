@@ -14,7 +14,7 @@ function closeSideBar() {
 
 // Typing Animation using Typed JS
 var typed = new Typed(".type", {
-    strings: ["Web Developement", "Machine Learning", "and Data Science"],
+    strings: ["Web Developement", "Machine Learning", "Data Science"],
     smartBackspace: true,
     startDelay: 1000,
     typeSpeed: 50,
