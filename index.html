@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 <body>
 
     <div class="mob-nav-popup">
@@ -16,19 +17,28 @@
         <ul>
 
             <div class="upper-bar">
-                <img src="./assets/images/menu.png" alt="">
-                <img src="./assets/images/close.png" alt="">
+                <img src="./assets/images/menu.png" onclick="closeSideBar()" alt="">
+                <img src="./assets/images/close.png" onclick="closeSideBar()" alt="">
             </div>
 
             <div class="lower-bar">
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">MyWorks 
-                    <img src="./assets/images/arrow-down.png" alt="">
-                </a></li>
+
+                <!-- <li>
+                        <a class="" onclick="onDropdown()">MyWorks 
+                            <img src="./assets/images/arrow-down.png" alt="">
+                        </a>
+                    
+                        
+                    
+                </li> -->
+
+                <li><a href="">Projects</a></li>
+                        <li><a href="">Creative Stuffs</a></li>
                 <li><a href="">Contact</a></li>
             </div>
-            
+
         </ul>
     </div>
 
@@ -42,10 +52,15 @@
                     <ul>
                         <li><a href="">Home</a></li>
                         <li><a href="">About</a></li>
-                        <li><a href="">MyWorks 
+                        <li><a >MyWorks 
                             <img src="./assets/images/arrow-down.png" alt="">
-                        </a></li>
-                        <li><a href="">Contact</a></li>
+                        </a>
+                        <ul class="highindex">
+                            <li><a href="">MyProjects</a></li>
+                            <li><a href="">Creative Stuffs</a></li>
+                        </ul>
+                    </li>
+                        <li class="margin-shift"><a href="">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,28 +76,56 @@
 
         </nav>
 
-        <!-- <div class="hero">
+        <div class="hero">
+
+        <div class="hero-grp1">
+            <div class="home-contact">
+                    <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" class="home_social-icon" target="_blank">
+                      <i class="uil uil-linkedin-alt"></i>
+                    </a>
+        
+                    <a href="https://github.com/Adarsh-2003" class="home_social-icon" target="_blank">
+                      <i class="uil uil-github-alt"></i>
+                    </a>
+        
+                    <a href="https://twitter.com/AdarshG52146094" class="home_social-icon" target="_blank">
+                      <i class="uil uil-twitter-alt"></i>
+                    </a>
+        
+                    <a href="https://www.instagram.com/adarsh.guptaaaa/" class="home_social-icon" target="_blank">
+                      <i class="uil uil-instagram"></i>
+                    </a>
+            </div>
+        </div>
+
+        <div class="hero-grp2">
             <div class="home_img">
-                <svg class="home_blob" viewBox="0 0 200 187" style="height: 330px;" xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink" data-tilt>
-                  <mask id="mask0" mask-type="alpha">
-                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                  </mask>
-                  <g mask="url(#mask0)">
-                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                    <image class="home_blob-img" x="12" y="8" href="./assets/images/icon.png" />
-                  </g>
-                </svg>
-              </div>
-        </div> -->
+                <img src="./assets/images/adarsh.jpg" alt="">
+            </div>
+    
+            <div class="home-desc">
+                <h1>Hi! I'm Adarsh</h1>
+                <p>I'm a bachelor's student specialising in IT from Mumbai University.</p>
+                <p>I'm currently upskilling myself in <span class="type"></span></p>
+                <div class="contactBtn">
+                    <a href="#contact" class="button button--flex">
+                      Get Resume
+                    </a>
+                  </div>
+            </div>
+        </div>
+
+
+
+        </div>
+
+        <div class="block">
+
+        </div>
+
     </div>
-    link
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
