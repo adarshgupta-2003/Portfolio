@@ -69,11 +69,18 @@ nav{
         display: none;
     }
 
+    .invisible-nav{
+        width: 100vw;
+        position: fixed;
+    }
+
     .mobile-nav{
         display: flex;
         justify-content: space-between;
         align-items: end;
         padding: 20px;
+        width: 100vw;
+        height: 80px;
     }
 
     .mobile-nav .name {
@@ -144,6 +151,11 @@ nav{
 
     /* hero for mobile */
 
+    .home_img{
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 /* hover on dropdown */
@@ -159,12 +171,13 @@ nav ul li:hover > ul {
     display: none;
 }
 
+/* for drop down fix */
 .navigations{
     position: relative;
 }
 
 .highindex{
-    position: absolute;
+    /* position: absolute; */
     z-index: 999;
 }
 
