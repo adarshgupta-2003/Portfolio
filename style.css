@@ -177,7 +177,7 @@ nav ul li:hover > ul {
 }
 
 .highindex{
-    /* position: absolute; */
+    position: absolute;
     z-index: 999;
 }
 
