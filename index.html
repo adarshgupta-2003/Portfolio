@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+<!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"> -->
 <body>
 
     <div class="mob-nav-popup">
@@ -51,7 +52,7 @@
                 <div class="navigations">
                     <ul>
                         <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a >MyWorks 
                             <img src="./assets/images/arrow-down.png" alt="">
                         </a>
@@ -82,57 +83,133 @@
 
         <div class="hero">
 
-        <div class="hero-grp1">
-            <div class="home-contact">
-                    <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" class="home_social-icon" target="_blank">
-                      <i class="uil uil-linkedin-alt"></i>
-                    </a>
-        
-                    <a href="https://github.com/Adarsh-2003" class="home_social-icon" target="_blank">
-                      <i class="uil uil-github-alt"></i>
-                    </a>
-        
-                    <a href="https://twitter.com/AdarshG52146094" class="home_social-icon" target="_blank">
-                      <i class="uil uil-twitter-alt"></i>
-                    </a>
-        
-                    <a href="https://www.instagram.com/adarsh.guptaaaa/" class="home_social-icon" target="_blank">
-                      <i class="uil uil-instagram"></i>
-                    </a>
+            <div class="hero-grp1">
+                <div class="home-contact">
+                        <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" class="home_social-icon" target="_blank">
+                        <i class="uil uil-linkedin-alt"></i>
+                        </a>
+            
+                        <a href="https://github.com/Adarsh-2003" class="home_social-icon" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                        </a>
+            
+                        <a href="https://twitter.com/AdarshG52146094" class="home_social-icon" target="_blank">
+                        <i class="uil uil-twitter-alt"></i>
+                        </a>
+            
+                        <a href="https://www.instagram.com/adarsh.guptaaaa/" class="home_social-icon" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                        </a>
+                </div>
             </div>
+
+            <div class="hero-grp2">
+                <div class="home_img">
+                    <img src="./assets/images/adarsh.jpg" alt="">
+                </div>
+        
+                <div class="home-desc">
+                    <h1>Hi! I'm Adarsh</h1>
+                    <br>
+                    <p>I'm a bachelor's student in Information Technology at Mumbai University.</p>
+                    <br>
+                    <p>I'm currently upskilling myself </p>
+                    <p>in <span class="type"></span></p>
+                    <div class="contactBtn">
+                        <a href="#contact" class="button button--flex">
+                        Get Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <div class="hero-grp2">
-            <div class="home_img">
-                <img src="./assets/images/adarsh.jpg" alt="">
+        <div class="block"></div>
+
+        <div class="about" id="about">
+            <div class="about-title">
+                <h1>About</h1>
             </div>
-    
-            <div class="home-desc">
-                <h1>Hi! I'm Adarsh</h1>
-                <br>
-                <p>I'm a bachelor's student in Information Technology at Mumbai University.</p>
-                <br>
-                <p>I'm currently upskilling myself </p>
-                <p>in <span class="type"></span></p>
-                <div class="contactBtn">
-                    <a href="#contact" class="button button--flex">
-                      Get Resume
-                    </a>
+            <div class="about-holder">
+                <div class="about-2nd-holder">
+                    <div class="photo">
+                        <img src="./assets/images/adarsh-gupta.jpg" alt="">
+                    </div>
+                    <div class="about-desc">
+                        <p>Hi,</p>
+                        <p>I'm Adarsh Gupta</p>
+                        <p>I'm a bachelor's student specialising in IT from Mumbai University.</p>
+                        <p>I'm currently upskilling myself in Machine Learning, Data Science & Data Structures.</p>
+                        <p>When I'm not buried into coding or studying, I find myself immersed in reading, researching, playing chess or gazing up at the stars or learning about deep space and cosmos.</p>
+                        <p>Sometimes while mendling with thoughts and feelings I write poems or sometimes write paragraphs which self-reflect my thoughts and character.</p>
+                        <p>Apart from all these i love critical thinking and analysing human behaviour their pyschology.</p>
+                        <p>I'm thinking to start writing blogs shortly. I'm always up for collaborating and making stuffs.</p>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <div class="sub-about">
+            <div class="sub-about-title">
+                <i class="uil uil-graduation-cap qualification_icon qualcolor" onclick="qualClick()"></i>
+                <h2 class="qual" onclick="qualClick()">Qualifications </h2> 
+                <h2 class="mid-qual-exp">/</h2>
+                <i class="uil uil-briefcase-alt qualification_icon expcolor" onclick="expClick()"></i>
+                <h2 class="exp" onclick="expClick()">Work</h2>
+            </div>
 
+            <div class="qual-body">
+                <div class="timeline">
+                    <ul>
+                      <li>
+                        <div class="content">
+                          <h3>BSc. in Information Technology</h3>
+                          <p>VPM RZ SHAH College of Arts, Science and Commerce NAAC A grade, Mumbai University</p>
+                          <p>Mumbai, Maharashtra</p>
+                        </div>
+                        <div class="time">
+                          <h4>July 2021 - June 2024</h4>
+                        </div>
+                      </li>
+                      
+                      <li>
+                        <div class="content">
+                          <h3>Senior Secondary Education</h3>
+                          <p>Wamanrao Muranjan College of Arts and Science, HSC Board.</p>
+                          <p>Mumbai, Maharashtra</p>
+                        </div>
+                        <div class="time">
+                          <h4>April 2019 - April 2021
+                          </h4>
+                        </div>
+                      </li>
+                      
+                      <li>
+                        <div class="content">
+                          <h3>Junior Secondary Education</h3>
+                          <p>Holy Angels' High School, State Board</p>
+                          <p>Mumbai, Maharashtra</p>
+                        </div>
+                        <div class="time">
+                          <h4>May 2018 - April 2019
+                          </h4>
+                        </div>
+                      </li>
+                      
+                      
+                      <div style="clear:both;"></div>
+                    </ul>
+                  </div>
+            </div>
 
+            <div class="exp-body">
+                <img src="./assets/images/jobmeme.jpg" alt="">
+            </div>
         </div>
 
-        <div class="block">
 
-        </div>
 
-        <div class="block">
-
-        </div>
 
     </div>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
