@@ -59,3 +59,14 @@ var typed = new Typed(".type", {
     loop: true,
   });
   
+
+  // card nav
+
+//   function toggleAnimation() {
+//     const cardContainerInner = document.querySelector('.card');
+//     cardContainerInner.style.animationPlayState =
+//       cardContainerInner.style.animationPlayState === 'paused' ? 'running' : 'paused';
+//   }
+  
+//   document.querySelector('.prev-btn').addEventListener('click', toggleAnimation);
+//   document.querySelector('.next-btn').addEventListener('click', toggleAnimation);

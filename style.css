@@ -629,3 +629,130 @@ nav ul li:hover > ul {
         width: 95vw;
     }
   }
+
+  /* myprojects */
+
+  .projects{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  .projects h1{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+  }
+
+  .card-holder{
+    padding: 20px;
+  }
+
+  .card-container{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    /* grid-column-gap: -20px; */
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 180px;
+  }
+
+  .card{
+    width: 335px;
+    border: 2px solid #5946b6;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+  }
+
+  .card img{
+    height: 165px;
+    border-radius: 12px;
+  }
+
+  /* inner-card styling */
+
+  .project-title h2{
+    text-align: center;
+    margin: 10px 0px;
+  }
+
+  .action-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+  }
+
+  .project-desc h4{
+    margin: 20px 0px;
+  }
+
+  .p-btn{
+    padding: 4px 7px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    /* background-color: rgb(31, 170, 31); */
+    background-color: #5946b6;
+    color: white;
+  }
+
+
+  /* card nav */
+
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-btn {
+    left: 305px;
+}
+
+.next-btn {
+    right: 305px;
+}
+
+
+
+.card {
+    flex: 0 0 335px;
+    margin-right: 20px;
+    /* display: flex;
+  width: 100%;
+  animation: slide-animation 12s infinite linear; */
+}
+
+body{
+  overflow-x: hidden;
+}
+
+#myprojects{
+  scroll-margin: 130px;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-container{
+    margin-left: 50px;
+  }
+}
