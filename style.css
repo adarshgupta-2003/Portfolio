@@ -181,6 +181,7 @@ nav ul li:hover > ul {
 }
 
 .highindex{
+    background-color: #14121F;
     position: absolute;
     z-index: 999;
 }
