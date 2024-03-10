@@ -20,17 +20,17 @@
 
             <div class="upper-bar">
                 <img src="./assets/images/menu.png" onclick="closeSideBar()" alt="">
-                <img src="./assets/images/close.png" onclick="closeSideBar()" alt="">
+                <img src="./assets/images/close.png" class="invert" onclick="closeSideBar()" alt="">
             </div>
 
             <div class="lower-bar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
+                <li><a href="#" onclick="closeSideBar()">Home</a></li>
+                <li><a href="#about" onclick="closeSideBar()">About</a></li>
 
 
-                <li><a href="#myprojects">Projects</a></li>
-                        <li><a href="">Creative Stuffs</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#myprojects" onclick="closeSideBar()">Projects</a></li>
+                        <li><a href="" onclick="closeSideBar()">Creative Stuffs</a></li>
+                <li><a href="#contact" onclick="closeSideBar()">Contact</a></li>
             </div>
 
         </ul>
@@ -53,7 +53,7 @@
                             <li><a href="#myprojects">MyProjects</a></li>
                             <li><a href="#creativestuffs">Creative Stuffs</a></li>
                         </ul>
-                    </li>
+                        </li>
                         <li class="margin-shift"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -120,6 +120,9 @@
 
         <div class="block"></div>
 
+
+        <!-- about -->
+        
         <div class="about" id="about">
             <div class="about-title">
                 <h1>About</h1>
@@ -413,6 +416,85 @@
           
                 </div>
               </section>
+        </div>
+
+        <div class="footer">
+            <footer>
+        <div class="main-footer">
+
+                    <div class="left-footer">
+                        <div class="footer-title">
+                            <h1>Adarsh Gupta</h1>
+                        </div>
+                        <div class="footer-subtitle">
+                            Halke me lerha kya
+                        </div>
+                    </div>
+
+
+                    <div class="mid-footer dn">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Projects</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="end-footer dn">
+                        <div class="footer-socials">
+                            <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" target="_blank" class="footer_social">
+                              <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/AdarshG52146094" target="_blank" class="footer_social">
+                              <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
+                              <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
+                              <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                <!-- footer for mobile -->
+                <div class="fdesktop">
+                    <div class="mid-footer frow">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Projects</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="end-footer frow">
+                        <div class="footer-socials">
+                            <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" target="_blank" class="footer_social">
+                              <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://twitter.com/AdarshG52146094" target="_blank" class="footer_social">
+                              <i class="uil uil-twitter-alt"></i>
+                            </a>
+                            <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
+                              <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
+                              <i class="uil uil-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+                <div class="sub-footer">
+                    <p>©2024 All rights reserved . </p>
+                    <p>&nbsp;Developed with ❤️ by Adarsh Gupta</p>
+                </div>
+
+
+            </footer>
         </div>
     </div>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
