@@ -24,19 +24,19 @@
             </div>
 
             <div class="lower-bar">
-                <li><a href="#" onclick="closeSideBar()">Home</a></li>
+                <li><a href="#home" onclick="closeSideBar()">Home</a></li>
                 <li><a href="#about" onclick="closeSideBar()">About</a></li>
 
 
                 <li><a href="#myprojects" onclick="closeSideBar()">Projects</a></li>
-                        <li><a href="" onclick="closeSideBar()">Creative Stuffs</a></li>
+                        <li><a href="./assets/pages/creative.html" target="_blank" onclick="closeSideBar()">Creative Stuffs</a></li>
                 <li><a href="#contact" onclick="closeSideBar()">Contact</a></li>
             </div>
 
         </ul>
     </div>
 
-    <div class="main-container">
+    <div class="main-container" id="home">
         <nav>
             <div class="desktop-nav">
                 <div class="name">
@@ -44,14 +44,14 @@
                 </div>
                 <div class="navigations">
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a >MyWorks 
                             <img src="./assets/images/arrow-down.png" alt="">
                         </a>
                         <ul class="highindex">
                             <li><a href="#myprojects">MyProjects</a></li>
-                            <li><a href="#creativestuffs">Creative Stuffs</a></li>
+                            <li><a href="./assets/pages/creative.html" target="_blank">Creative Stuffs</a></li>
                         </ul>
                         </li>
                         <li class="margin-shift"><a href="#contact">Contact</a></li>
@@ -106,10 +106,10 @@
                     <br>
                     <p>I'm a bachelor's student in Information Technology at Mumbai University.</p>
                     <br>
-                    <p>I'm currently upskilling myself </p>
-                    <p>in <span class="type"></span></p>
+                    <p>I'm currently upskilling myself in <span class="type"></span></p>
+                    <p></p>
                     <div class="contactBtn">
-                        <a href="#contact" class="button button--flex">
+                        <a href="https://drive.google.com/file/d/1YvaobpFD-IEcCtXFEiQPfcFlKYySC-QD/view?usp=sharing" target="_blank" class="button button--flex">
                         Get Resume
                         </a>
                     </div>
@@ -162,7 +162,7 @@
                         <div class="content">
                           <h3>BSc. in Information Technology</h3>
                           <p>VPM RZ SHAH College of Arts, Science and Commerce NAAC A grade, Mumbai University</p>
-                          <p>Mumbai, Maharashtra</p>
+                          <p>CGPA - 7.9 | Mumbai, Maharashtra</p>
                         </div>
                         <div class="time">
                           <h4>July 2021 - June 2024</h4>
@@ -173,7 +173,7 @@
                         <div class="content">
                           <h3>Senior Secondary Education</h3>
                           <p>Wamanrao Muranjan College of Arts and Science, HSC Board.</p>
-                          <p>Mumbai, Maharashtra</p>
+                          <p>Percentage - 89% | Mumbai, Maharashtra</p>
                         </div>
                         <div class="time">
                           <h4>April 2019 - April 2021
@@ -185,7 +185,7 @@
                         <div class="content">
                           <h3>Junior Secondary Education</h3>
                           <p>Holy Angels' High School, State Board</p>
-                          <p>Mumbai, Maharashtra</p>
+                          <p>Percentage - 86% | Mumbai, Maharashtra</p>
                         </div>
                         <div class="time">
                           <h4>May 2018 - April 2019
@@ -216,16 +216,61 @@
                         </div>
 
                         <div class="project-title">
-                            <h2>Wall-E Assistant1</h2>
+                            <h2>Wall-E Assistant</h2>
                         </div>
 
                         <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/Wall-E-Assistant">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://www.youtube.com/watch?v=ZAj6F7ucrU4">Live Demo</a></button>
                         </div>
 
                         <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
+                            <h4>Developed Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
+                        </div>
+                    </div>  
+                    
+
+                </div>
+                <div class="card">
+                    <div class="card-holder">
+                        <div class="img">
+                            <img src="./assets/images/tictactoe.png" alt="">
+                        </div>
+
+                        <div class="project-title">
+                            <h2>Tic-Tac-toe Game</h2>
+                        </div>
+
+                        <div class="action-buttons">
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/Tic-Tac-Toe-Game">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://github.com/adarshgupta-2003/Tic-Tac-Toe-Game">Live Demo</a></button>
+                        </div>
+
+                        <div class="project-desc">
+                            <h4>Developed a console based Tic-Tac-Toe game in python without using any external libraries and only logics and file systems. Includes 2 player and single player.</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 3rd project -->
+                <div class="card">
+                    <div class="card-holder">
+                        <div class="img">
+                            <img src="./assets/images/ml.png" alt="">
+                        </div>
+
+                        <div class="project-title">
+                            <h2>ML Algorithms</h2>
+                        </div>
+
+                        <div class="action-buttons">
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/Machine-Learning-Algorithms">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://github.com/adarshgupta-2003/Machine-Learning-Algorithms/blob/main/01_Simple%20Linear%20Regression/01_simple-linear-regression.ipynb">Live Demo</a></button>
+                        </div>
+
+                        <div class="project-desc">
+                            <h4>A repository of me practicing few Machine-Learning-Algorithms. Jupyter Notebook environment was used while coding , consisting of 6 algorithms yet.</h4>
                         </div>
                     </div>  
 
@@ -233,20 +278,20 @@
                 <div class="card">
                     <div class="card-holder">
                         <div class="img">
-                            <img src="./assets/images/assistant.png" alt="">
+                            <img src="./assets/images/dgservices.png" alt="">
                         </div>
 
                         <div class="project-title">
-                            <h2>Wall-E Assistant</h2>
+                            <h2>DG-Services</h2>
                         </div>
 
                         <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/DG-Services">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://dg-services.vercel.app/">Live Demo</a></button>
                         </div>
 
                         <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
+                            <h4>Developed a content-driven website for DG Services, a home appliance repair business, showcasing products, services, and enhancing online presence.</h4>
                         </div>
                     </div>
 
@@ -255,63 +300,20 @@
                 <div class="card">
                     <div class="card-holder">
                         <div class="img">
-                            <img src="./assets/images/assistant.png" alt="">
+                            <img src="./assets/images/translator.png" alt="">
                         </div>
 
                         <div class="project-title">
-                            <h2>Wall-E Assistant2</h2>
+                            <h2>Text-to-web translator</h2>
                         </div>
 
                         <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/Text-to-web-bridge">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://adarshgupta-2003.github.io/Text-to-web-bridge/">Live Demo</a></button>
                         </div>
 
                         <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
-                        </div>
-                    </div>  
-
-                </div>
-                <div class="card">
-                    <div class="card-holder">
-                        <div class="img">
-                            <img src="./assets/images/assistant.png" alt="">
-                        </div>
-
-                        <div class="project-title">
-                            <h2>Wall-E Assistant</h2>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
-                        </div>
-
-                        <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="card">
-                    <div class="card-holder">
-                        <div class="img">
-                            <img src="./assets/images/assistant.png" alt="">
-                        </div>
-
-                        <div class="project-title">
-                            <h2>Wall-E Assistant3</h2>
-                        </div>
-
-                        <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
-                        </div>
-
-                        <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
+                            <h4>Created a website to translate texts over 5000 characters by creating a separate web-text page, overcoming Google Translate's limitations, inspired by mom's WhatsApp translation struggles.</h4>
                         </div>
                     </div>
 
@@ -319,20 +321,20 @@
                 <div class="card">
                     <div class="card-holder">
                         <div class="img">
-                            <img src="./assets/images/assistant.png" alt="">
+                            <img src="./assets/images/twowheelsonrent.png" alt="">
                         </div>
 
                         <div class="project-title">
-                            <h2>Wall-E Assistant</h2>
+                            <h2>TwoWheelsOnRent</h2>
                         </div>
 
                         <div class="action-buttons">
-                            <button class="p-btn source-code">Source Code</button>
-                            <button class="p-btn live demo">Live Demo</button>
+                            <button class="p-btn source-code"><a href="https://github.com/adarshgupta-2003/TwoWheelsOnRent">Source Code</a></button>
+                            <button class="p-btn live demo"><a href="https://two-wheels-on-rent.vercel.app/">Live Demo</a></button>
                         </div>
 
                         <div class="project-desc">
-                            <h4>I'm Wall-E , A small-scale assistant, capable of running applications present on your system , send mails and carry out google searches on the console itself.</h4>
+                            <h4>Developed a dynamic webpage for renting two-wheelers, featuring registration, login, logout, local storage, payments, and Firebase for database, ensuring seamless user experience.</h4>
                         </div>
                     </div>
 
@@ -383,10 +385,11 @@
           
                     <a href="https://goo.gl/maps/9Uu7zb71Ub7LUuQG9" target="_blank">
                       <div class="contact_info">
-                        <i class="uil uil-location-point contact_icon"></i>
+                        <!-- <img src="./assets/images/medium.svg" alt=""> -->
+                        <i class="uil uil-medium-m contact_icon"></i>
                         <div>
-                          <h3 class="contact_title">Location</h3>
-                          <span class="contact_subtitle">Mumbai, India</span>
+                          <h3 class="contact_title">Medium</h3>
+                          <span class="contact_subtitle">Blogs, India</span>
                         </div>
                       </div>
                     </a>
@@ -403,7 +406,8 @@
                   </div>
 
                 <div class="right">
-                    <form action="">
+                    <form id="contact-form" action="https://formspree.io/f/mjvnoewa" method="post">
+                        <div id="alert" class="alert_style"></div>
                         <input type="text" id="name" name="name" placeholder="Your name">
                         <input type="email" id="email" name="email" placeholder="Email">
                         <input type="text" id="subject" name="subject" placeholder="Subject">
@@ -453,7 +457,7 @@
                               <i class="uil uil-instagram"></i>
                             </a>
                             <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
-                              <i class="uil uil-instagram"></i>
+                              <i class="uil uil-medium-m"></i>
                             </a>
                         </div>
                     </div>
@@ -463,10 +467,10 @@
                 <div class="fdesktop">
                     <div class="mid-footer frow">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#myprojects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
 
@@ -475,14 +479,14 @@
                             <a href="https://www.linkedin.com/in/adarsh-gupta-652a67224/" target="_blank" class="footer_social">
                               <i class="uil uil-linkedin-alt"></i>
                             </a>
-                            <a href="https://twitter.com/AdarshG52146094" target="_blank" class="footer_social">
+                            <a href="https://twitter.com/adarshgupta_x" target="_blank" class="footer_social">
                               <i class="uil uil-twitter-alt"></i>
                             </a>
                             <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
                               <i class="uil uil-instagram"></i>
                             </a>
-                            <a href="https://www.instagram.com/adarsh.guptaaaa/" target="_blank" class="footer_social">
-                              <i class="uil uil-instagram"></i>
+                            <a href="https://medium.com/@adarshguptaa.dev" target="_blank" class="footer_social">
+                              <i class="uil uil-medium-m"></i>
                             </a>
                         </div>
                     </div>

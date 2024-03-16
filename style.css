@@ -282,8 +282,8 @@ nav ul li:hover > ul {
   }
 
   .contactBtn{
-    margin: 20px 0 20px;
-    margin-left: 20vw;
+    margin: 25px 0 20px;
+    margin-left: 17vw;
   }
 
   .contactBtn a{
@@ -419,6 +419,20 @@ nav ul li:hover > ul {
     .about-desc{
         margin-left: 0;
     }
+}
+
+.alert_style {
+  text-align: center;
+  padding: 10px;
+  font-size: var(--small-font-size);
+  background-color: var(--first-color);
+  color: #fff;
+  border-radius: 0.5rem;
+  display: none;
+}
+
+#id{
+  display: none;
 }
 
 
@@ -655,6 +669,7 @@ nav ul li:hover > ul {
 
   .card-holder{
     padding: 20px;
+    height: 465px;
   }
 
   .card-container{
@@ -685,6 +700,7 @@ nav ul li:hover > ul {
 
   .card img{
     height: 165px;
+    width: 294px;
     border-radius: 12px;
   }
 
@@ -713,6 +729,11 @@ nav ul li:hover > ul {
     /* background-color: rgb(31, 170, 31); */
     background-color: #5946b6;
     color: white;
+  }
+
+  .action-buttons button a{
+    text-decoration: none;
+    color: #fff;
   }
 
 
@@ -763,6 +784,10 @@ body{
 
   .card-container{
     margin-left: 50px;
+  }
+
+  .card-holder{
+    height: 480px;
   }
 }
 
