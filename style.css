@@ -8,6 +8,7 @@
     /* background-color: #191627; */
     scrollbar-color: #454a4d #202324;
     font-family: "Poppins", sans-serif;;
+    scroll-behavior: smooth;
 }
 
 body, .hero{
@@ -323,7 +324,7 @@ nav ul li:hover > ul {
 
     .home-contact{
         padding-left: 20px;
-        transform: translateX(0rem)
+        transform: translate(0.5rem, -6em);
     }
 
     .home-desc{
@@ -353,7 +354,7 @@ nav ul li:hover > ul {
 /* about section */
 
 .about{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     scroll-margin: 150px;
     /* background-color: brown; */
@@ -391,9 +392,6 @@ nav ul li:hover > ul {
 
 @media screen and (max-width: 767px){
 
-    .about{
-      margin-top: 40px;
-    }
 
     #about{
       scroll-margin: 100px;
@@ -443,6 +441,7 @@ nav ul li:hover > ul {
 }
 
 .sub-about-title{
+  margin-top: 60px;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -643,7 +642,7 @@ nav ul li:hover > ul {
 
   @media screen and (max-width: 767px){
     .sub-about{
-        margin-top: 250px;
+        margin-top: 50px;
     }
 
     .exp-body img{
@@ -787,7 +786,8 @@ body{
   }
 
   .card-holder{
-    height: 480px;
+    height: auto;
+    /* width: auto; */
   }
 }
 
@@ -945,7 +945,7 @@ textarea{
 
   .right{
     margin-left: 0;
-    margin-top: -10px;
+    margin-top: -30px;
   }
 
   form{
@@ -1059,11 +1059,27 @@ footer{
   }
 
   .contact_container{
-    height: 100vh;
+    height: auto;
     margin-bottom: 40px;
   }
 
   .sub-footer{
     flex-direction: column;
+  }
+}
+
+/* addtional mobile responsive */
+
+@media (max-width: 560px){
+  .card{
+    width: 304px;
+  }
+
+  .card img{
+    width: 262px;
+  }
+
+  form{
+    padding: 25px;
   }
 }
