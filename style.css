@@ -424,7 +424,7 @@ nav ul li:hover > ul {
   padding: 10px;
   font-size: var(--small-font-size);
   background-color: var(--first-color);
-  color: #fff;
+  color: rgb(45, 190, 45);
   border-radius: 0.5rem;
   display: none;
 }
