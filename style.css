@@ -437,7 +437,7 @@ nav ul li:hover > ul {
 /* sub-about */
 
 .sub-about{
-    height: 100vh;
+    height: auto;
 }
 
 .sub-about-title{
