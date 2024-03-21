@@ -791,6 +791,24 @@ body{
   }
 }
 
+
+/* media queries for scroll-margin on mobile */
+@media (max-width: 768px) {
+  
+  /* #about{
+    scroll-margin: 22px;
+  } */
+  
+  #myprojects{
+    scroll-margin: 70px;
+  }
+
+  #contact{
+    scroll-margin: 400px;
+  }
+
+}
+
 /* contact */
 
 .contact_container {
