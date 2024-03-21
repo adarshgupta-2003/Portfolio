@@ -356,7 +356,7 @@ nav ul li:hover > ul {
 .about{
     height: auto;
     width: 100vw;
-    scroll-margin: 150px;
+    scroll-margin: 120px;
     /* background-color: brown; */
 }
 
@@ -368,7 +368,7 @@ nav ul li:hover > ul {
 .about-holder{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 30px;
     /* border: 2px solid red; */
 }
 
@@ -390,8 +390,22 @@ nav ul li:hover > ul {
     flex-direction: column;
 }
 
+.about-desc span{
+  /* dark yellow */
+  color: rgb(248, 187, 74);
+  
+  /* redish */
+  /* color: #e96574; */
+  
+  /* light yellow */
+  /* color: wheat; */
+}
+
 @media screen and (max-width: 767px){
 
+    #greet{
+      text-align: center;
+    }
 
     #about{
       scroll-margin: 100px;
@@ -403,7 +417,8 @@ nav ul li:hover > ul {
 
     .about-desc{
         margin-top: 20px;
-        width: 300px;
+        width: 340px;
+        text-align: justify;
     }
 
     .about-2nd-holder{
