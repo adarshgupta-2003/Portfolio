@@ -108,3 +108,14 @@ async function handleSubmit(event) {
     });
 }
 form.addEventListener("submit", handleSubmit);
+
+const currentTime = new Date().getHours();
+const greet = document.getElementById("greet");
+
+if (currentTime >= 5 && currentTime < 12) {
+  greet.innerText = "Good morning !";
+} else if (currentTime >= 12 && currentTime < 18) {
+  greet.innerText = "Good afternoon !";
+} else {
+  greet.innerText = "Good night !";
+}
