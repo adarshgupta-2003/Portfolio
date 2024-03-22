@@ -401,6 +401,8 @@ nav ul li:hover > ul {
   /* color: wheat; */
 }
 
+textarea { resize: none; }
+
 @media screen and (max-width: 767px){
 
     #greet{
