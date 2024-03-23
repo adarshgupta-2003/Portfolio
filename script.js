@@ -58,19 +58,6 @@ var typed = new Typed(".type", {
     backSpeed: 60,
     loop: true,
   });
-  
-
-  // card nav
-
-//   function toggleAnimation() {
-//     const cardContainerInner = document.querySelector('.card');
-//     cardContainerInner.style.animationPlayState =
-//       cardContainerInner.style.animationPlayState === 'paused' ? 'running' : 'paused';
-//   }
-  
-//   document.querySelector('.prev-btn').addEventListener('click', toggleAnimation);
-//   document.querySelector('.next-btn').addEventListener('click', toggleAnimation);
-
 
 // Formspree code
 const form = document.getElementById("contact-form");
@@ -108,6 +95,8 @@ async function handleSubmit(event) {
     });
 }
 form.addEventListener("submit", handleSubmit);
+
+// greeting logic
 
 const currentTime = new Date().getHours();
 const greet = document.getElementById("greet");
