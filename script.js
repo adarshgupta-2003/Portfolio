@@ -1,3 +1,13 @@
+// import countapi from 'countapi-js';
+
+// countapi.visits().then((result) => {
+//     console.log(result.value);
+// });
+
+function cb(response) {
+  document.getElementById('visits').innerText = response.value;
+}
+
 function showSideBar() {
     const mobileBar = document.querySelector('.mob-nav-popup');
     const allContent = document.querySelector('.main-container');

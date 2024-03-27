@@ -1017,7 +1017,6 @@ textarea{
 
 footer{
   background-color: #100E1B;
-  margin-bottom: 100px;
 }
 
 .main-footer{
@@ -1133,3 +1132,25 @@ footer{
     padding: 25px;
   }
 }
+
+.hitcounter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.hitcounter p{
+  color: white;
+}
+
+#cb{
+  color: white;
+}
+
+.hitcounter img{
+  height: 18px;
+  margin-bottom: -3px;
+}
+
