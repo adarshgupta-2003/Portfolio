@@ -118,3 +118,12 @@ if (currentTime >= 5 && currentTime < 12) {
 } else {
   greet.innerText = "Good night !";
 }
+
+// browser detection
+if (navigator.brave) { 
+  document.querySelector('.hitcounter').style.display = 'none';
+}
+
+if (navigator.userAgent.indexOf('Firefox') > -1) {
+document.querySelector('.hitcounter').style.display = 'none';
+}
