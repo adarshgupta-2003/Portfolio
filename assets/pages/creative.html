@@ -9,8 +9,43 @@
 <link rel="stylesheet" href="crstyle.css">
 <body>
     <div class="creative-container">
-        <h1>Development in progress...</h1>
+
+        <nav>
+            <a href="/index.html"><img src="/assets/images/previous.png" alt=""></a>
+            <h1>Creative Stuffs</h1>
+            <p>hi</p>
+        </nav>
+
+        <div class="bottom-nav">
+            <p class="blogs" onclick="blogClick()">Blogs</p>
+            <p class="slash">/</p>
+            <p class="poems" onclick="poemClick()">Poems</p>
+            <p class="slash">/</p>
+            <p class="quotes" onclick="quoteClick()">Quotes</p>
+        </div>
+
+        <div class="content">
+
+            <div class="blogsContent">
+                <div class='sk-ww-medium-publication-feed' data-embed-id='25389897'>
+                </div>
+            </div>
+
+            <div class="poemsContent">
+                poems soon to displayed
+            </div>
+
+            <div class="quotesContent">
+                quotes soon to displayed
+            </div>
+
+        </div>
+
+        
     </div>
+
     <script src="crscript.js"></script>
+    <script src='https://widgets.sociablekit.com/medium-publication-feed/widget.js' async defer>
+    </script>
 </body>
 </html>
