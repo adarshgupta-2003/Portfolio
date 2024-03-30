@@ -2,10 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scrollbar-color: #454a4d #202324;
+
 }
 
 .creative-container{
-    height: 100vh;
     background-color: #14121F;
     color: white;
 }
@@ -72,6 +73,11 @@ nav h1{
 
 .poemsContent, .quotesContent{
     display: none;
+    height: 100vh;
+}
+
+html{
+    background-color: #14121F;
 }
 
 /* adjustments on initial render */
@@ -83,6 +89,10 @@ nav h1{
 .medium-publication-feed-root-container{
     display: none;
 }
+
+/* medium_publication_content{
+    background-color: red !important;
+} */
 
 .mfp-close{
     color: white;
