@@ -31,7 +31,6 @@ nav{
 .desktop-nav{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 40px;
 }
 
@@ -54,7 +53,6 @@ nav{
 
 .navigations ul img{
     height: 17px;
-    /* filter: invert(1); */
 }
 
 .mobile-nav{
@@ -98,7 +96,6 @@ nav{
     }
 
     .menu img{
-        /* padding-top: 10px; */
         height: 30px;
         cursor: pointer;
         
@@ -114,11 +111,6 @@ nav{
         justify-content: space-between;
         padding: 20px;
     }
-    
-    /* .upper-bar img{
-        height: 30px;
-        cursor: pointer;
-    } */
 
     .menu-img{
       height: 30px;
@@ -136,7 +128,6 @@ nav{
     
     .mobile-nav-popup ul{
         display: flex;
-        /* flex-direction: column; */
     }
     
     .lower-bar{
@@ -153,7 +144,6 @@ nav{
     }
     
     .mob-nav-popup ul{
-        /* height: 100vh; */
         list-style-type: none;
         text-decoration: none;
     }
@@ -802,13 +792,13 @@ textarea { resize: none; }
 
 
 
-.card {
-    /* flex: 0 0 335px; */
-    /* margin-right: 20px; */
-    /* display: flex;
+/* .card {
+    flex: 0 0 335px;
+    margin-right: 20px;
+    display: flex;
   width: 100%;
-  animation: slide-animation 12s infinite linear; */
-}
+  animation: slide-animation 12s infinite linear;
+} */
 
 body{
   overflow-x: hidden;
@@ -840,11 +830,9 @@ body{
 
 
 /* media queries for scroll-margin on mobile */
+
 @media (max-width: 768px) {
   
-  /* #about{
-    scroll-margin: 22px;
-  } */
 
   .card-holder{
     padding: 20px;
@@ -880,7 +868,6 @@ body{
 }
 
 .contact_content {
-  /* background-color: hsl(var(--hue-color), 70%, 96%); */
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
   border: #6e57e0 2px solid;
@@ -889,8 +876,6 @@ body{
 
 .contact_input {
   width: 100%;
-  /* background-color: hsl(var(--hue-color), 70%, 96%); */
-  /* color: hsl(var(--hue-color), 8%, 45%); */
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
   border: none;
@@ -900,7 +885,6 @@ body{
 
 .contact_label {
   font-size: 0.75rem;
-  /* color: hsl(var(--hue-color), 8%, 15%); */
 }
 
 
@@ -944,7 +928,7 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 15px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    box-sizing: border-box;
     border: 3px solid #6D57E0;
     border-radius: 10px;
     margin: 8px 0;
@@ -972,7 +956,6 @@ textarea{
   font-size: 0.813rem;
   text-decoration: none;
   color: grey;
-  /* color: hsl(var(--hue-color), 8%, 65%); */
 }
 
 .left a{
@@ -1174,5 +1157,17 @@ footer{
   margin-bottom: -3px;
 }
 
+
+@media (max-height: 665px) {
+  .hero{
+    margin-top: 30px;
+  }
+
+@media (max-height: 605px) {
+  .hero{
+    margin-top: 50px;
+  }
+
+}
 
 
