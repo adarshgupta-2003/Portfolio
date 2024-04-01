@@ -115,9 +115,19 @@ nav{
         padding: 20px;
     }
     
-    .upper-bar img{
+    /* .upper-bar img{
         height: 30px;
         cursor: pointer;
+    } */
+
+    .menu-img{
+      height: 30px;
+      cursor: pointer;
+    }
+
+    .cross-img{
+      height: 25px;
+      cursor: pointer;
     }
 
     .invert{
@@ -793,8 +803,8 @@ textarea { resize: none; }
 
 
 .card {
-    flex: 0 0 335px;
-    margin-right: 20px;
+    /* flex: 0 0 335px; */
+    /* margin-right: 20px; */
     /* display: flex;
   width: 100%;
   animation: slide-animation 12s infinite linear; */
@@ -810,11 +820,16 @@ body{
 
 @media (max-width: 768px) {
   .card-container {
-      grid-template-columns: repeat(1, 1fr);
+      /* grid-template-columns: repeat(1, 1fr); */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
 
   .card-container{
-    margin-left: 50px;
+    margin-left: 0;
+    width: 100vw;
   }
 
   .card-holder{
@@ -830,6 +845,11 @@ body{
   /* #about{
     scroll-margin: 22px;
   } */
+
+  .card-holder{
+    padding: 20px;
+  }
+
   
   #myprojects{
     scroll-margin: 70px;
