@@ -1157,11 +1157,14 @@ footer{
   margin-bottom: -3px;
 }
 
+/* for smaller device */
 
 @media (max-height: 665px) {
   .hero{
     margin-top: 30px;
   }
+
+/* for extreme smaller device */
 
 @media (max-height: 605px) {
   .hero{
@@ -1169,5 +1172,4 @@ footer{
   }
 
 }
-
-
+}
