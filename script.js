@@ -1,8 +1,10 @@
-// import countapi from 'countapi-js';
-
-// countapi.visits().then((result) => {
-//     console.log(result.value);
-// });
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("loading-logo").style.display = "block";
+  setTimeout(function() {
+      document.getElementById("loading-logo").style.display = "none";
+      document.getElementById("content").classList.remove("hidden");
+  }, 2000);
+  });
 
 function cb(response) {
   document.getElementById('visits').innerText = response.value;
