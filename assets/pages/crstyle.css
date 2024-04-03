@@ -71,9 +71,9 @@ nav h1{
 
 /* initial display none to all content */
 
-.poemsContent, .quotesContent{
+ .quotesContent{
+    /* height: 100vh; */
     display: none;
-    height: 100vh;
 }
 
 html{
@@ -108,10 +108,48 @@ html{
 
 @media (max-width: 768px){
 
-
     nav img{
         align-items: center;
         padding-bottom: 0;
         height: 15px;
     }
+
+    .m-none{
+        display: none;
+    }    
+
+    .poemsContent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.poemsContent{
+    margin: 0px auto;
+    columns: 4;
+    column-gap: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.poem1{
+    /* flex: 0 0 calc(25vw); */
+    border: 2px solid #6D57E0;
+    border-radius: 12px;
+    padding: 15px;
+    height: auto;
+    width: auto;
+    margin-bottom: 20px;
+    break-inside: avoid;
+}
+
+.poem1 p{
+    padding: 5px 0;
+}
+
+.author{
+    text-align: right;
+    color: #f7da9d;
 }

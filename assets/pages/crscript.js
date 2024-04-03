@@ -13,7 +13,8 @@ function poemClick(){
     quotes.style.color= 'white';
 
     blogsContent.style.display= 'none';
-    poemsContent.style.display= 'flex';
+    // poemsContent.style.display= 'block';
+    poemsContent.classList.remove("hidden");
     quotesContent.style.display= 'none';
 }
 
@@ -23,7 +24,8 @@ function blogClick(){
     quotes.style.color= 'white';
 
     blogsContent.style.display= 'flex';
-    poemsContent.style.display= 'none';
+    // poemsContent.style.display= 'none';
+    poemsContent.classList.add("hidden");
     quotesContent.style.display= 'none';
 }
 
@@ -33,7 +35,7 @@ function quoteClick(){
     quotes.style.color= '#6D57E0';
 
     blogsContent.style.display= 'none';
-    poemsContent.style.display= 'none';
+    // poemsContent.style.display= 'none';
+    poemsContent.classList.add("hidden");
     quotesContent.style.display= 'flex';
 }
-
