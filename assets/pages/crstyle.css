@@ -71,11 +71,6 @@ nav h1{
 
 /* initial display none to all content */
 
- .quotesContent{
-    /* height: 100vh; */
-    display: none;
-}
-
 html{
     background-color: #14121F;
 }
@@ -152,4 +147,15 @@ html{
 .author{
     text-align: right;
     color: #f7da9d;
+}
+
+.blogsContent , .quotesContent{
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotesContent{
+    display: none;
 }

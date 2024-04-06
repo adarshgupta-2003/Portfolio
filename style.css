@@ -263,6 +263,14 @@ nav ul li:hover > ul {
     font-size: 1.125rem;
 }
 
+.home-desc span{
+  color: #6D57E0;
+}
+
+.type{
+  font-weight: 900;
+}
+
 /* button */
 
 .button--flex {
