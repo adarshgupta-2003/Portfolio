@@ -31,7 +31,7 @@ nav{
 .desktop-nav{
     display: flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 40px 40px 20px 40px;
 }
 
 
@@ -187,6 +187,9 @@ nav ul li:hover > ul {
 /* for drop down fix */
 .navigations{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .highindex{
@@ -364,7 +367,7 @@ nav ul li:hover > ul {
 .about{
     height: auto;
     width: 100vw;
-    scroll-margin: 120px;
+    scroll-margin: 100px;
     /* background-color: brown; */
 }
 
@@ -423,7 +426,7 @@ textarea { resize: none; }
     }
 
     #about{
-      scroll-margin: 100px;
+      scroll-margin: 60px;
     }
 
     .photo img{
@@ -840,7 +843,7 @@ body{
 
   
   #myprojects{
-    scroll-margin: 70px;
+    scroll-margin: 90px;
   }
 
   #contact{
