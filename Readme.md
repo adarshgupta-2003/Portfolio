@@ -48,7 +48,7 @@ This repository contains the source code for my portfolio website. It showcases 
 For a live demo, visit [adarsh-gupta.pages.dev](https://adarsh-gupta.pages.dev).
 
 ## License
-This project is licensed under the [MIT License](link_to_license_file) - see the [LICENSE.md](link_to_license_file) file for details.
+This project is licensed under the [MIT License](/LICENSE) - see the [LICENSE.md](/LICENSE) file for details.
 
 ## Acknowledgements
 - Special thanks to [Hitwebcounter.com](https://www.hitwebcounter.com) for providing the view counter.
