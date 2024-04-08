@@ -5,11 +5,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #5946b6; */
-    scrollbar-color: #454a4d #202324;
     font-family: "Poppins", sans-serif;;
     scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar{
+  width: 7px;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+  background: #624bd3;
+  border-radius: 10px;
+  }
 
 body, .hero{
     background-color: #14121F;
@@ -159,6 +166,7 @@ nav{
     .lower-bar li{
         margin: 30px 0;
         text-align: start;
+        color: #7964e4;
     }
 
 
@@ -285,7 +293,7 @@ nav ul li:hover > ul {
   .button {
     display: inline-flex;
     justify-content: center;
-    background-color: #6e57e0 ;
+    background-color: #5e47d1 ;
     color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;
@@ -368,7 +376,6 @@ nav ul li:hover > ul {
     height: auto;
     width: 100vw;
     scroll-margin: 100px;
-    /* background-color: brown; */
 }
 
 .about-title{
@@ -393,6 +400,7 @@ nav ul li:hover > ul {
 }
 
 .about-desc{
+    cursor: help !important;
     font-size: 16.35px;
     color: white;
     margin-left: 40px;
@@ -486,7 +494,7 @@ textarea { resize: none; }
 
 .exp{
     margin-left: 6px;
-    cursor: pointer;
+    cursor: pointer !;
 }
 
 .mid-qual-exp{

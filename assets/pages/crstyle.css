@@ -2,9 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scrollbar-color: #454a4d #202324;
-
 }
+
+::-webkit-scrollbar{
+    width: 7px;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+    background: #624bd3;
+    border-radius: 10px;
+    }
 
 .creative-container{
     background-color: #14121F;
