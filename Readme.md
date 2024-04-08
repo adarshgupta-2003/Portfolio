@@ -2,17 +2,14 @@
 # Portfolio Website
 
 
+## Introduction
+This repository contains the source code for my portfolio website. It showcases my projects, qualifications, experience, and more.
+
 https://github.com/adarshgupta-2003/Portfolio/assets/158209002/6a585366-6d1e-4fe3-9361-3f7e54b4a38a
 
 
 https://github.com/adarshgupta-2003/Portfolio/assets/158209002/4d1f8855-eaaa-4cec-9572-1116e58dbba8
 
-
-
-
-
-## Introduction
-This repository contains the source code for my portfolio website. It showcases my projects, qualifications, experience, and more.
 
 ## Features
 - **Loading Intro**: Utilized loading intro animation to enhance user experience.
@@ -48,11 +45,10 @@ This repository contains the source code for my portfolio website. It showcases 
 For a live demo, visit [adarsh-gupta.pages.dev](https://adarsh-gupta.pages.dev).
 
 ## License
-This project is licensed under the [MIT License](/LICENSE) - see the [LICENSE.md](/LICENSE) file for details.
+This project is licensed under the [MIT License](/LICENSE) - see the [LICENSE.txt](/LICENSE) file for details.
 
 ## Acknowledgements
 - Special thanks to [Hitwebcounter.com](https://www.hitwebcounter.com) for providing the view counter.
 - Thanks to all the libraries and tools used in this project for making it possible.
 
 Feel free to reach out if you have any questions or suggestions!
-
