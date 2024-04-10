@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="/dist/kursor.css">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
 <link rel="shortcut icon" href="./assets/images/favicon.png">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" media="(min-width: 768px)" />
 <body>
 
     <div id="loading-logo">
@@ -58,6 +59,9 @@
     </div>
 
     <div class="main-container" id="home">
+
+        <!--------------------------Navbar Section----------------------------->
+
         <nav>
             <div class="desktop-nav">
                 <div class="name">
@@ -95,30 +99,34 @@
 
         </nav>
 
+        <!--------------------------Hero Section----------------------------->
+
+        
+
         <div class="hero">
 
             <div class="hero-grp1">
                 <div class="home-contact">
-                        <a href="https://www.linkedin.com/in/adarshgupta2003/" class="home_social-icon" target="_blank">
-                        <i class="uil uil-linkedin-alt"></i>
-                        </a>
-            
-                        <a href="https://github.com/adarshgupta-2003" class="home_social-icon" target="_blank">
-                        <i class="uil uil-github-alt"></i>
-                        </a>
-            
-                        <a href="https://twitter.com/adarshgupta_x" class="home_social-icon" target="_blank">
-                        <i class="uil uil-twitter-alt"></i>
-                        </a>
-            
-                        <a href="https://medium.com/@adarshgupta_x" class="home_social-icon" target="_blank">
-                        <i class="uil uil-medium-m"></i>
-                        </a>
-                </div>
+                    <a href="https://www.linkedin.com/in/adarshgupta2003/" class="home_social-icon" target="_blank">
+                    <i class="uil uil-linkedin-alt"></i>
+                    </a>
+        
+                    <a href="https://github.com/adarshgupta-2003" class="home_social-icon" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                    </a>
+        
+                    <a href="https://twitter.com/adarshgupta_x" class="home_social-icon" target="_blank">
+                    <i class="uil uil-twitter-alt"></i>
+                    </a>
+        
+                    <a href="https://medium.com/@adarshgupta_x" class="home_social-icon" target="_blank">
+                    <i class="uil uil-medium-m"></i>
+                    </a>
+            </div>
             </div>
 
             <div class="hero-grp2">
-                <div class="home_img">
+                <div class="home_img" data-aos="flip-left">
                     <img src="./assets/images/adarsh.jpg" alt="">
                 </div>
         
@@ -129,7 +137,7 @@
                     <br>
                     <p>I'm currently upskilling myself in </p>
                     <p><span class="type"></span></p>
-                    <div class="contactBtn">
+                    <div class="contactBtn" data-aos="fade" data-aos-offset="10">
                         <a href="https://drive.google.com/file/d/1bF4rXIwSXYUaho3O0GEvxIoeNjjh6YM7/view?usp=sharing" target="_blank" class="button button--flex">
                         Get Resume
                         </a>
@@ -142,7 +150,7 @@
         <div class="block"></div>
 
 
-        <!-- ------------------------About Section------------------------ -->
+        <!--------------------------About Section----------------------------->
         
         <div class="about" id="about">
             <div class="about-title">
@@ -150,10 +158,10 @@
             </div>
             <div class="about-holder">
                 <div class="about-2nd-holder">
-                    <div class="photo">
+                    <div class="photo" data-aos="fade" data-aos-offset="100">
                         <img src="./assets/images/adarsh-gupta.jpg" alt="">
                     </div>
-                    <div class="about-desc">
+                    <div class="about-desc" data-aos="fade-left" data-aos-offset="100">
                         <p id="greet">   </p>
                         <p>I'm Adarsh Gupta an <span>IT student</span> based in Mumbai, India.</p>
                         <p>I'm currently upskilling myself in <span>Machine Learning, Data Science & Data Structures</span>.</p>
@@ -165,7 +173,7 @@
             </div>
         </div>
 
-                <!-- ---------------Qualification Timeline Section------------------->
+        <!-----------------Qualification Timeline Section--------------------->
 
         <div class="sub-about">
             <div class="sub-about-title">
@@ -180,7 +188,7 @@
                 <div class="timeline">
                     <ul>
                       <li>
-                        <div class="content-qual">
+                        <div class="content-qual" data-aos="fade" data-aos-offset="100">
                           <h3>BSc. in Information Technology</h3>
                           <p>VPM RZ SHAH College of Arts, Science and Commerce NAAC A grade, Mumbai University</p>
                           <p>CGPA - 7.9 | Mumbai, Maharashtra</p>
@@ -191,7 +199,7 @@
                       </li>
                       
                       <li>
-                        <div class="content-qual">
+                        <div class="content-qual" data-aos="fade" data-aos-offset="100">
                           <h3>Senior Secondary Education</h3>
                           <p>Wamanrao Muranjan College of Arts and Science, HSC Board.</p>
                           <p>Percentage - 89% | Mumbai, Maharashtra</p>
@@ -203,7 +211,7 @@
                       </li>
                       
                       <li>
-                        <div class="content-qual">
+                        <div class="content-qual" data-aos="fade" data-aos-offset="100">
                           <h3>Junior Secondary Education</h3>
                           <p>Holy Angels' High School, State Board</p>
                           <p>Percentage - 86% | Mumbai, Maharashtra</p>
@@ -225,14 +233,14 @@
             </div>
         </div>
 
-        <!-- ------------------------Project Section------------------------ -->
+        <!---------------------------Project Section-------------------------->
 
         <div class="projects" id="myprojects">
             <h1>My Projects</h1>
 
-            <div class="card-container">
+            <div class="card-container" >
 
-                <div class="card">
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="100" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/assistant.png" alt="">
@@ -254,7 +262,8 @@
                     
 
                 </div>
-                <div class="card">
+
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="200" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/tictactoe.png" alt="">
@@ -275,9 +284,7 @@
                     </div>
 
                 </div>
-
-                <!-- 3rd project -->
-                <div class="card">
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="300" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/ml.png" alt="">
@@ -298,7 +305,8 @@
                     </div>  
 
                 </div>
-                <div class="card">
+
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="100" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/dgservices.png" alt="">
@@ -320,7 +328,7 @@
 
                 </div>
 
-                <div class="card">
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="200" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/translator.png" alt="">
@@ -341,7 +349,8 @@
                     </div>
 
                 </div>
-                <div class="card">
+
+                <div class="card"  data-aos="fade-up" data-aos-easing="ease-in-out-back" data-aos-delay="300" data-aos-offset="150">
                     <div class="card-holder">
                         <div class="img">
                             <img src="./assets/images/twowheelsonrent.png" alt="">
@@ -366,6 +375,7 @@
             </div>
         </div>
 
+        <!-- ------------------------Contact Section-------------------------->
 
         <div class="contact" >
             <section class="contact section" id="contact">
@@ -431,11 +441,11 @@
                 <div class="right">
                     <form id="contact-form" action="https://formspree.io/f/mjvnoewa" method="post">
                         <div id="alert" class="alert_style"></div>
-                        <input type="text" id="name" name="name" placeholder="Your name" required>
-                        <input type="email" id="email" name="email" placeholder="Email" required>
-                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        <textarea id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
-                        <div class="contact-button">
+                        <input data-aos="flip-down" data-aos-offset="50" type="text" id="name" name="name" placeholder="Your name" required>
+                        <input data-aos="flip-down" data-aos-offset="50" type="email" id="email" name="email" placeholder="Email" required>
+                        <input data-aos="flip-down" data-aos-offset="50" type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <textarea data-aos="flip-down" data-aos-offset="50" id="message" name="message" rows="4" placeholder="Write your message" required></textarea>
+                        <div class="contact-button" data-aos="flip-down" data-aos-offset="50">
                             <button type="submit">Send Message</button>
                         </div>
                     </form>
@@ -445,6 +455,8 @@
               </section>
         </div>
 
+        <!-- ------------------------Footer Section-------------------------->
+        
         <div class="footer">
             <footer>
         <div class="main-footer">
@@ -522,12 +534,12 @@
 
                 <!-- hitwebcounter.com domain got purchased api expires -->
 
-                <div class="hitcounter">
+                <!-- <div class="hitcounter">
                     <p>Visit count :&nbsp;</p>
                     <a href="https://www.hitwebcounter.com" target="_blank">
                         <img src="https://hitwebcounter.com/counter/counter.php?page=12273939&style=0010&nbdigits=5&type=ip&initCount=0" title="Counter Widget" alt="100"   border="0" />
                     </a> 
-                </div>
+                </div> -->
 
 
             </footer>
@@ -537,7 +549,15 @@
     <script src="dist/typed.js"></script>
     <script src="/dist/kursor.js"></script>
     <script src="/assets/pages/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer media="(min-width: 768px)"></script>
     <script>
+        setTimeout(function() {
+            AOS.init({
+                offset: 300,
+                duration: 1000,
+                disable: 'mobile'
+            });
+        }, 2500);
         new kursor({
             type: 1,
             removeDefaultCursor: true,

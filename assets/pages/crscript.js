@@ -16,6 +16,13 @@ function poemClick(){
     // poemsContent.style.display= 'block';
     poemsContent.classList.remove("hidden");
     quotesContent.style.display= 'none';
+    setTimeout(function() {
+        AOS.init({
+            offset: 300,
+            duration: 1000,
+        });
+    }, 100);
+    AOS.refresh();
 }
 
 function blogClick(){

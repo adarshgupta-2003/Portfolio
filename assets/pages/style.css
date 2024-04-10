@@ -9,6 +9,8 @@
     scroll-behavior: smooth;
 }
 
+/* scrollbar styling */
+
 ::-webkit-scrollbar{
   width: 7px;
   }
@@ -16,6 +18,18 @@
   ::-webkit-scrollbar-thumb{
   background: #624bd3;
   border-radius: 10px;
+  }
+
+  /* selection styling */
+
+  ::-moz-selection { 
+    color: white;
+    background: #7964e4;
+  }
+  
+  ::selection {
+    color: white;
+    background: #7964e4;
   }
 
 body, .hero{
@@ -245,7 +259,7 @@ nav ul li:hover > ul {
 }
 
 .home-contact{
-    display: grid;
+  display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
   transform: translateX(-4rem);
@@ -255,15 +269,14 @@ nav ul li:hover > ul {
 .hero-grp2{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     color: white;
 }
 
 .home-desc{
-    /* transform: translateX(3rem); */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .home-desc h1{
@@ -303,7 +316,9 @@ nav ul li:hover > ul {
 
   .contactBtn{
     margin: 25px 0 20px;
-    margin-left: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contactBtn a{
@@ -313,8 +328,6 @@ nav ul li:hover > ul {
   .contactBtn a:hover{
     background-color: #5946b6;
   }
-
-/* translateX contact and home-desc*/
 
 .block{
     height: 100vh;
@@ -332,7 +345,6 @@ nav ul li:hover > ul {
 @media screen and (max-width: 767px){
     .hero{
         flex-direction: row;
-        /* border: 2px solid red; */
     }
 
     .hero-grp2{
@@ -345,11 +357,7 @@ nav ul li:hover > ul {
     }
 
     .home-desc{
-        /* transform: translateX(15px); */
-        /* border: 2px solid red; */
-        padding-left: 20px;
         display: flex;
-        /* width: 20vw; */
     }
 
     .home-desc p {
@@ -357,7 +365,6 @@ nav ul li:hover > ul {
       }
 
     .home-desc h1 {
-        /* display: flex; */
         font-size: 30px;
         text-align: center;
     
@@ -366,6 +373,12 @@ nav ul li:hover > ul {
     .home_img img {
         height: 240px;
       }
+
+      .contactBtn{
+        margin-right: 33px;
+      }
+
+
 }
 
 
@@ -391,7 +404,8 @@ nav ul li:hover > ul {
 }
 
 .photo img{
-    height: 350px;
+  border-radius: 22px;
+  height: 350px;
 }
 
 .about-2nd-holder{
@@ -700,6 +714,7 @@ textarea { resize: none; }
   .projects{
     height: auto;
     width: 100vw;
+    overflow: hidden;
     position: relative;
   }
 
