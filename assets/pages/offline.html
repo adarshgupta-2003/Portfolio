@@ -12,12 +12,12 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Arial, sans-serif; /* Set a basic font */
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
             height: 100vh;
-            text-align: center; /* Center the content */
-            background-color: #f0f0f0; /* Light gray background */
+            text-align: center;
+            background-color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -25,17 +25,17 @@
         }
 
         h1 {
-            font-size: 2em; /* Increase heading size */
+            font-size: 2em; 
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 1.2em; /* Increase paragraph size */
+            font-size: 1.2em;
             margin-bottom: 20px;
         }
 
         img {
-            width: 100px; /* Adjust image size as needed */
+            width: 100px; 
         }
     </style>
 </head>
@@ -44,56 +44,7 @@
     <p>We can't connect right now, but don't worry. Check your internet connection and try again soon.</p>
     <img src="images/no-wifi.svg" alt="No Wi-Fi icon">
 
-    <script>
-        /*  service_worker.js  */
-  
-const offlineCache = './offline.html'; 
-// Adding the offline page  
-// when installing the service worker 
-self.addEventListener('install', e => { 
-    // Wait until promise is finished  
-    // Until it get rid of the service worker 
-    e.waitUntil( 
-        caches.open(offlineCache) 
-        .then(cache => { 
-            cache.add(offlineCache) 
-                // When everything is set 
-                .then(() => self.skipWaiting()) 
-        }) 
-    ); 
-}) 
-  
-// Call Activate Event 
-self.addEventListener('activate', e => { 
-    console.log('Service Worker - Activated') 
-    e.waitUntil( 
-        caches.keys().then(cacheNames => { 
-            return Promise.all( 
-                cacheNames.map( 
-                    cache => { 
-                        if (cache !== offlineCache) { 
-                            console.log( 
-                              'Service Worker: Clearing Old Cache'); 
-                            return caches.delete(cache); 
-                        } 
-                    } 
-                ) 
-            ) 
-        }) 
-    ); 
-  
-}); 
-  
-// Call Fetch Event  
-self.addEventListener('fetch', e => { 
-    console.log('Service Worker: Fetching'); 
-    e.respondWith( 
-        // If there is no internet 
-        fetch(e.request).catch((error) => 
-            caches.match(offlineCache) 
-        ) 
-    ); 
-}); 
+    <script src="/assets/pages/offline.js">
     </script>
 </body>
 </html>
