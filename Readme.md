@@ -5,7 +5,10 @@
 ## Introduction
 This repository contains the source code for my portfolio website. It showcases my projects, qualifications, experience, and more.
 
-https://github.com/adarshgupta-2003/Portfolio/assets/158209002/6a585366-6d1e-4fe3-9361-3f7e54b4a38a
+
+
+https://github.com/adarshgupta-2003/Portfolio/assets/158209002/fd20975b-633e-457d-8e04-5eb969540a6f
+
 
 
 https://github.com/adarshgupta-2003/Portfolio/assets/158209002/4d1f8855-eaaa-4cec-9572-1116e58dbba8
