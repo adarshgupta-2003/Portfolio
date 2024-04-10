@@ -19,6 +19,7 @@ https://github.com/adarshgupta-2003/Portfolio/assets/158209002/4d1f8855-eaaa-4ce
 - **Styled Scrollbar**: Customized scrollbar for better aesthetics.
 - **Resume Button**: Added a button to access my resume stored on Google Drive.
 - **Smooth Scroll**: Implemented smooth scrolling for better navigation.
+- **User-friendly animation**: Implemented AOS for improving look and feel of the page.
 - **Dynamic Greeting**: Personalized greeting message on the about section.
 - **Timeline**: Included a timeline to showcase qualifications and experience.
 - **Project Section**: Utilized CSS Grid and Flexbox for layout in the projects section.
@@ -37,6 +38,7 @@ https://github.com/adarshgupta-2003/Portfolio/assets/158209002/4d1f8855-eaaa-4ce
 - Kursor.js
 - Iconscout
 - Formspree
+- AOS animation
 - Sociablekit.com
 - Cloudflare
 
