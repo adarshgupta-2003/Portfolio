@@ -1202,8 +1202,6 @@ footer{
 
 /* loading animation */
 
-
-
 .hidden {
   display: none;
 }
@@ -1381,11 +1379,11 @@ footer{
 
 .content p {
   color: #bacbd9;
-  font-size: 14px;
+  font-size: 17px;
   z-index: 2;
   position: absolute;
   bottom: -20px;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto";
   animation: text 4s ease infinite;
   width: auto;
   /* width: 120px; */
@@ -1401,5 +1399,5 @@ footer{
   position: absolute;
   top: 50%;  
   left: 50%; 
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -71%);
 }

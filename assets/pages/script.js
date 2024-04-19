@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
       document.getElementById("loading-logo").style.display = "none";
       document.getElementById("content").classList.remove("hidden");
-  }, 2000);
+  }, 1800);
   });
 
 function cb(response) {
