@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("loading-logo").style.display = "block";
   setTimeout(function() {
+      window.location.href = "https://gupta-adarsh.pages.dev/";
       document.getElementById("loading-logo").style.display = "none";
       document.getElementById("content").classList.remove("hidden");
   }, 1800);
